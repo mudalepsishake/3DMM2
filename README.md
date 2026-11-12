@@ -221,11 +221,12 @@ MOUSE3 - Hold down to adjust the height of the camera.
 - Open the properties window  
 - Select all the text in the properties window by clicking and dragging the mouse  
 - Press CTRL+V to paste the text  
-- Click OK to confirm changes  
+- Click OK to confirm changes
+  
 This will result in the camera remaining stationary at your chosen camera angle until the next manual camera angle change that you have made. I plan on creating a checkbox to enable/disable the automatic transition between camera angles so that this will not be necessary in a later version. If you only specify one manual camera angle in a scene, however, no camera movement will be automatically generated. So using the Scene Organizer to duplicate a scene is another way to create different static camera angles in the same scene.  
   
-*When the red light is on underneath the Manual Camera mode button, this indicates that a Manucal Camera position has been defined for the current frame.*  
-
+*When the red light is on underneath the Manual Camera mode button, this indicates that a Manual Camera position has been defined for the current frame.*  
+  
   
 ### Depth Camera Tween (Drone / Dolly Camera Movement) 
 
