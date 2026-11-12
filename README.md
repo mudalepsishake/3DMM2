@@ -206,9 +206,9 @@ MOUSE3 - Hold down to adjust the height of the camera.
 
 **These tools allows for automatically moving the camera across multiple frames so that it can do things like establish a shot, follow an actor, explore a scene, follow a car chase, provide a bird's eye view, etc.**
   
-### MANUAL CAMERA MODE  
+### MANUAL CAMERA MODE
   
-**Manual Camera Mode is the 2nd red light toggle to the left of the Scissors buttons in the middle of the SCENE tab**  
+**Manual Camera Angle is the 2nd red light toggle to the left of the Scissors buttons in the middle of the SCENE tab**  
 **Clicking on the toggle** will bring up the manual camera window which has the current frame's manual camera angle properties. It also has the Start button and Record buttons:  
 The **[Record]** button will enter into record mode. The movie starts playing while you move the camera with the mouse and keyboard. The camera's position/angle will be saved as each frame goes by. Press CTRL+R to stop (otherwise it stops at the end of the scene). Record mode can also be started by pressing CTRL+R in manual camera mode (recommended. See below for more info).  
 The **[Start]** button will enter manual camera mode.  
@@ -216,6 +216,7 @@ The **[Start]** button will enter manual camera mode.
 *Entering manual camera mode will make the cursor disappear and allow for moving the camera with the mouse and keyboard controls similar to freecam mode.*
 ***MANUAL CAMERA MODE CONTROLS** The following settings are for when manual camera mode is active:*  
 <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd> - Allows for moving the camera forward, left, backwards, and right (respectively).  
+<kbd>SHIFT</kbd> - Turns fly mode on and off. With fly mode on, the camera moves in the direction of the mouse instead of remaining at the same height.
 <kbd>MOUSE</kbd> - Turn and adjust the camera's angle (similar to a first person game).  
 <kbd>ENTER</kbd> or <kbd>TAB</kbd> - Saves the camera angle to the current frame and exits manual camera mode.  
 <kbd>ESC</kbd> - Exits manual camera mode without saving the current camera angle to the frame.  
