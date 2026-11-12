@@ -114,7 +114,7 @@ The project embraces what 3DMM already is. It takes the original to the next lev
 
 3DMM2 is currently developed primarily on Windows and the build system is still changing.
 
-For convenience, I've included a "Build 3DMM2.cmd" batch file with the source to assist with successfully buliding the source in a Windows environment. This batch file is kept up to date so that it works with the currently available source.
+For convenience, I've included a "Build 3DMM2.cmd" batch file with the source to assist with successfully building the source in a Windows environment. This batch file works with the currently available source.
 
 The current development branch uses:
 
@@ -249,7 +249,7 @@ LEFT CLICK or <kbd>TAB</kbd> - Pressing left click while free cam mode is active
 <kbd>SHIFT</kbd> - Enables/disables the ability to change the height of the camera. Disabling this after 'flying upwards' results in the free camera then being incapable of changing its y-value at the current altitude.  
 Access the free cam settings in the CONSOLE (<kbd>CTRL</kbd> + <kbd>~</kbd>) by clicking the ADVANCED SETTINGS button.  
   
-# HOW TO START 3DMM2 AFTER YOU HAVE BUILT (COMPILED) THE SOFTWARE  
+# HOW TO START 3DMM2 AFTER YOU HAVE BUILT (COMPILED) THE SOFTWARE **(NOTE: THIS DOES NOT APPLY TO VERSION 597 AS OF NOV 11 2026. However, if you're downloading the source code from this Github and building it yourself with the batch file, the following still applies. I'll be updating the source code on Github soon.)**
   
 ## Here's instructions on how to start 3DMM2 so that all features are enabled.  
   
@@ -352,7 +352,7 @@ Preserving the original 3DMM experience and its existing movie/asset ecosystem i
 
 This is a list of functioning, concrete features of this application which already exist. This is not a list of ideas. The features listed in this file work as described. However, Scene Organizer functionality is under development so features here do not allow for re-arranging and importing scenes using Scene Organizer. I'll do my best to make sure that the (versions of the actively in development) source code for this project which I publish on GitHub will be as stable as possible. However, please keep in mind that stability testing is an ongoing process which is why this project does not yet have an official release. Please feel free to report crashes on here as this will help me to make the software more stable. Other current feature limitations are listed in this document. File formats and UI behavior are functional but subject to change (find out more info about this by reading this document). Files saved with in-development versions likely won't work with newer versions.  
   
-This project hasn't gotten attention on Github so I'm mainly focusing on developing it privately at this point. If you're interested in receiving the latest build of this project, please post on this repo and once I see your post I'll update the build which is available here to the latest version.  
+If you're interested in receiving the latest build of this project, please post on this repo's bug section and once I see your post I'll update the build which is available here to the latest version.  
   
 # Credits and project lineage  
   
