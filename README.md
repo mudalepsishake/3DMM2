@@ -205,15 +205,28 @@ MOUSE3 - Hold down to adjust the height of the camera.
 ## Frame by Frame Moving Camera Controls
 
 **These tools allows for automatically moving the camera across multiple frames so that it can do things like establish a shot, follow an actor, explore a scene, follow a car chase, provide a bird's eye view, etc.**
-
-### MANUAL CAMERA MODE
-
-**Click on Toggle** - Enters manual camera mode [Manual Camera Mode is the 2nd red light toggle to the left of the Scissors buttons in the middle of the SCENE tab]. Clicking on it will immediately make the cursor disappear and allow you to move the camera with the mouse and the W, A, S, D keys similar to a first person game. The camera can also be rolled using the E and Q keys although this feature is still a work in progress.
-<kbd>LEFT</kbd>/<kbd>RIGHT</kbd> - Saves, then moves to the previous/next frame (respectively).  
-<kbd>E</kbd> - Saves the live camera and opens the manual camera properties window.  
-<kbd>CTRL</kbd>+Click Manual Camer Mode button when red light is lit - Opens the manual camera properties window.  
+  
+### MANUAL CAMERA MODE  
+**Clicking on the toggle** will bring up the manual camera window which has the current frame's manual camera angle properties. It also has the Start button and Record button. Start will enter manual camera mode as described below. Record will enter into record mode: the movie starts playing while you can continue to move and manipulate the camera with the mouse and keyboard. The camera's position and angle will be saved as each frame goes by. I would  recommend using CTRL+R to enter into record mode after entering into manual camera mode first as this will allow for you to line up the shot first.   
+**CTRL+Click on Toggle** - Enters manual camera mode [Manual Camera Mode is the 2nd red light toggle to the left of the Scissors buttons in the middle of the SCENE tab]. CTRL+Click on it will immediately make the cursor disappear and allow you to move the camera with the mouse and the W, A, S, D keys similar to a first person game.  
+<kbd>ENTER</kbd> - Saves the manual camera angle and exits manual camera mode.  
+<kbd>Q</kbd> (or <kbd>←</kbd>) / <kbd>E</kbd> (or <kbd>→</kbd>) - Saves, then moves to the previous/next frame (respectively).  
+<kbd>CTRL</kbd>+<kbd>E</kbd> - Saves the live camera and opens the manual camera properties window.  
+<kbd>CTRL</kbd>+<kbd>R</kbd> - Starts/Stops recording in manual camera mode. The movie will play while recording and record where the camera is as each frame passes by. You can move the camera as the movie plays and each camera angle for each frame will be recorded.  
+**IMPORTANT NOTE:** Manual camera angles made in manual camera mode will automatically be transitioned between in the current version of 3DMM2. This means that if you create a manual camera angle on frame 1, and a different manual camera angle on frame 10, the software will automatically move the camera between these two camera angles. This allows for a wide variety of moving camera shots to be automatically generated. Each manual camera angle thus acts as a key frame in the automatically generated camera movement. **If you would like the manual camera angle to remain static (non-moving) until the next manual camera angle, and then switch immediately to the next camera angle with no camera movement (without having to duplicate the scene), use the properties window:**  
+- Open the properties window  
+- Select all the text in the properties window by clicking and dragging the mouse  
+- Press CTRL+C to copy the text  
+- Go to the frame before the next manual camera angle  
+- Open the properties window  
+- Select all the text in the properties window by clicking and dragging the mouse  
+- Press CTRL+V to paste the text  
+- Click OK to confirm changes  
+This will result in the camera remaining stationary at your chosen camera angle until the next manual camera angle change that you have made. I plan on creating a checkbox to enable/disable the automatic transition between camera angles so that this will not be necessary in a later version. If you only specify one manual camera angle in a scene, however, no camera movement will be automatically generated. So using the Scene Organizer to duplicate a scene is another way to create different static camera angles in the same scene.  
+  
 *When the red light is on underneath the Manual Camera mode button, this indicates that a Manucal Camera position has been defined for the current frame.*  
 
+  
 ### Depth Camera Tween (Drone / Dolly Camera Movement) 
 
 **You can think of this tool as being sort of like having a camera mounted on a quadcopter flying through your scene. Or another way to think of it would be like putting the camera on rails or on a dolly**
